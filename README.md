@@ -2,7 +2,7 @@
 
 ---
 
-JavaScript学習者ビギナー用に  
+JavaScriptビギナー用に  
 コーディング実践スキルを上げる為に  
 ミニプロジェクトを羅列
 
@@ -52,7 +52,11 @@ YouTube動画
 Twitter垢さんの作品
 - [とよもも Peach（オラオラ系じゃない方）@momokotoyopet](https://github.com/mtoyopet/js-spaceship-game)
 
+MDN
+- [ブロックくずし | developer.mozilla.org](https://developer.mozilla.org/ja/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
 
+4004件のオープンソースの記事があるらしいけど使い方が分からない
+- [JavaScriptの記事一覧 | moongift.jp](https://www.moongift.jp/tag/javascript)
 
 サプルメント
 - https://qiita.com/junpiiiiiiik/items/23d7572940ede0fc44b2
