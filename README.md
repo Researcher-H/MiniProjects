@@ -1,5 +1,8 @@
 # ミニプロジェクト
-I collected tons of mini projects and listed here.
+
+JavaScript学習者ビギナー用に
+コーディングの実践スキルを上げる為に  
+沢山のミニプロジェクトを羅列
 
 ---
 
