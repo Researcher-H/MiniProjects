@@ -10,7 +10,11 @@ JavaScriptビギナー用に
 
 ### 英語ソース
 
+---
+
 総数　**405**　のミニJavaScriptプロジェクト
+
+---
 
 GitHub
 - [10 Projects (1)](https://github.com/Researcher-H/100-JavaScript-Projects)
