@@ -51,6 +51,8 @@ YouTube動画
 日本語でググると全然出てこない (オープンソースコードは規制されている！？)  
 （追記：　日本ではオープンソースが流行らないみたいですね ([参照](https://feisia.opal.ne.jp/reason.html)) ）
 
+総数：　2+4004
+
 ---
 
 Twitter垢さんの作品
@@ -59,7 +61,7 @@ Twitter垢さんの作品
 MDN
 - [ブロックくずし | developer.mozilla.org](https://developer.mozilla.org/ja/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
 
-4004件のオープンソースの記事があるらしいけど使い方が分からない
+4004件のオープンソースの記事があるらしいけど使い方が良く分からないし、日本語でないものが多いっぽい
 - [JavaScriptの記事一覧 | moongift.jp](https://www.moongift.jp/tag/javascript)
 
 サプルメント
