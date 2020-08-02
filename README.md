@@ -13,7 +13,7 @@ JavaScript学習者ビギナー用に
 
 ---
 
-総数　**405**　のミニJavaScriptプロジェクト
+総数　**429**　のミニJavaScriptプロジェクト
 
 ---
 
@@ -34,6 +34,9 @@ GitHub (難易度高め)
 - [100+ | jsbeginners.com](https://jsbeginners.com/javascript-projects-for-beginners/)
 - [100 | freecodecamp.org](https://www.freecodecamp.org/news/how-i-built-100-projects-in-100-days/)
   * [プロジェクト一覧 | codepen.io](https://codepen.io/FlorinPop17/full/VwYWMOa)
+
+数式系
+- [24 | visualgo.net](https://visualgo.net/en)
 
 YouTube動画
 - [9](https://youtu.be/Kp3HGwlXwCk)
