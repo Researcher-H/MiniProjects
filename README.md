@@ -52,10 +52,8 @@ YouTube動画
 
 ---
 
-<!---
 Twitter垢さんの作品
-- [とよもも Peach（オラオラ系じゃない方）@momokotoyopet](https://github.com/mtoyopet/js-spaceship-game)
--->
+- [とよもも(@momokotoyopet)さんの開発ゲーム](https://github.com/mtoyopet/js-spaceship-game)
 
 MDN
 - [ブロックくずし | developer.mozilla.org](https://developer.mozilla.org/ja/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
