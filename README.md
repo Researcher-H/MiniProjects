@@ -49,7 +49,7 @@ YouTube動画
 ---
 
 日本語でググると全然出てこない（オープンソースコードは規制されている！？）
-（日本ではオープンソース流行らないみたいですね[参照](https://feisia.opal.ne.jp/reason.html)）
+（日本ではオープンソース流行らないみたいですね ([参照](https://feisia.opal.ne.jp/reason.html)) ）
 
 ---
 
