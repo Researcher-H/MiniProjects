@@ -4,7 +4,7 @@
 
 JavaScript学習者ビギナー用に  
 コーディング実践スキルを上げる為に  
-オープンソースのミニプロジェクトを羅列してみました  
+オープンソースのミニプロジェクトを検索・羅列してみました  
 自由に使ってみて下さい
 
 ---
@@ -52,9 +52,10 @@ YouTube動画
 ---
 
 日本語でググると全然出てこない (オープンソースコードは規制されている！？)  
-（追記：　日本ではオープンソースが流行らないみたいですね ([参照](https://feisia.opal.ne.jp/reason.html)) ）
 
-総数：　2+4004
+追記：　日本ではオープンソースが流行らないみたいですね ([参照](https://feisia.opal.ne.jp/reason.html))  
+
+総数：　17+4004
 
 ---
 
@@ -63,6 +64,15 @@ Twitter垢さんの作品
 
 MDN
 - [ブロックくずし | developer.mozilla.org](https://developer.mozilla.org/ja/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
+
+ゲーム
+- [9 | 静岡理工科大学](https://www.sist.ac.jp/~suganuma/game/JavaScript/)
+- [シューティングゲーム | Qiita](https://qiita.com/doxas/items/9debec7e1f0c19bc8daa)
+- [YouTube動画5選 | sejuku.net](https://www.sejuku.net/blog/3960)
+- [オセロ | techacademy.jp](https://techacademy.jp/magazine/22767)
+- [257 | west-mira.jp](http://www.west-mira.jp/javascript/list/4/16/)
+- [10 | html.seo-search.com](http://html.seo-search.com/game/)
+- [テトリス風ゲーム | kmaebashi.com](http://kmaebashi.com/programmer/tetris/index.html)
 
 4004件のオープンソースの記事があるらしいけど使い方が良く分からないし、日本語でないものが多いっぽい
 - [JavaScriptの記事一覧 | moongift.jp](https://www.moongift.jp/tag/javascript)
