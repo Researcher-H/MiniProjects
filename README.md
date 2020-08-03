@@ -55,7 +55,7 @@ YouTube動画
 
 追記：　日本ではオープンソースが流行らないみたいですね ([参照](https://feisia.opal.ne.jp/reason.html))  
 
-総数：　17+4004
+総数：　29+257+4004
 
 ---
 
@@ -68,8 +68,8 @@ MDN
 ゲーム
 - [9 | 静岡理工科大学](https://www.sist.ac.jp/~suganuma/game/JavaScript/)
 - [シューティングゲーム | Qiita](https://qiita.com/doxas/items/9debec7e1f0c19bc8daa)
-- [YouTube動画5選 | sejuku.net](https://www.sejuku.net/blog/3960)
 - [オセロ | techacademy.jp](https://techacademy.jp/magazine/22767)
+- [YouTube動画5選 | sejuku.net](https://www.sejuku.net/blog/3960)
 - [257 | west-mira.jp](http://www.west-mira.jp/javascript/list/4/16/)
 - [10 | html.seo-search.com](http://html.seo-search.com/game/)
 - [テトリス風ゲーム | kmaebashi.com](http://kmaebashi.com/programmer/tetris/index.html)
