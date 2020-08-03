@@ -1,25 +1,27 @@
 # ビギナー用 -JS- ミニプロジェクト
 
----
+<br/>
 
 JavaScript学習者ビギナー用に  
 コーディング実践スキルを上げる為に  
 オープンソースのミニプロジェクトを検索・羅列してみました  
 自由に使ってみて下さい
 
----
+<br/>
 
+---
 ---
 
 ### > 英語ソース
 
 ---
-
 ---
+
+<br/>
 
 総数　**429**　のミニJavaScriptプロジェクト
 
----
+<br/>
 
 GitHub
 - [10 Projects (1)](https://github.com/Researcher-H/100-JavaScript-Projects)
@@ -49,11 +51,17 @@ YouTube動画
 サプルメント
 - https://www.w3resource.com/javascript-exercises/
 
+<br/>
+
+---
 ---
 
 ### 日本語ソース
 
 ---
+---
+
+<br/>
 
 日本語でググると全然出てこない (オープンソースコードは規制されている！？)  
 
@@ -61,7 +69,7 @@ YouTube動画
 
 総数：　29+257+4004
 
----
+<br/>
 
 Twitter垢さんの作品
 - [とよもも(@momokotoyopet)さんの開発ゲーム](https://github.com/mtoyopet/js-spaceship-game)
@@ -83,3 +91,5 @@ MDN
 
 サプルメント
 - https://qiita.com/junpiiiiiiik/items/23d7572940ede0fc44b2
+
+<br/>
