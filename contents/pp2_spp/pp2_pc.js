@@ -233,7 +233,7 @@ function drawTime() {
 // document.addEventListener("keydown", keyDownHandler, false);
 // document.addEventListener("keyup", keyUpHandler, false);
 // document.addEventListener("mousemove", mouseMoveHandler, false);
-document.addEventListener("mousemove", touchMoveHandler, false);
+document.addEventListener("touchmove", touchMoveHandler, false);
 
 draw();
 // setInterval(draw, 10);
