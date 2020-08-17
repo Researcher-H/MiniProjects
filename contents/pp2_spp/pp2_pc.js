@@ -201,8 +201,8 @@ function collisionDetection() {
 // TOUCH
 function touchHandler(e) {
     if(e.touches) {
-        var relativeX = e.touches[0].pageX - canvas.offsetLeft - playerWidth / 2;
-        output.innerHTML = "Touch:  <br />"+ " x: " + playerX;
+        var relativeX = e.touches[0].pageX - canvas.offsetLeft - paddleWidth / 2;
+        output.innerHTML = "Touch:  <br />"+ " x: " + relativeX;
         e.preventDefault();
     }
 }
