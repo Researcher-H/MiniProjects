@@ -144,46 +144,6 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
-// detect button press
-// function keyDownHandler(e) {
-//     if(e.key == "Right" || e.key == "ArrowRight") {
-//         rightPressed = true;
-//     }
-//     else if(e.key == "Left" || e.key == "ArrowLeft") {
-//         leftPressed = true;
-//     }
-// }
-
-// function keyUpHandler(e) {
-//     if(e.key == "Right" || e.key == "ArrowRight") {
-//         rightPressed = false;
-//     }
-//     else if(e.key == "Left" || e.key == "ArrowLeft") {
-//         leftPressed = false;
-//     }
-// }
-
-// function mouseMoveHandler(e) {
-//     var relativeX = e.clientX - canvas.offsetLeft;
-//     if(relativeX > 0 && relativeX < canvas.width) {
-//         paddleX = relativeX - paddleWidth/2;
-//     }
-// }
-
-function touchMoveHandler(e) {
-    var relativeX = e.clientX - canvas.offsetLeft;
-    if(relativeX > 0 && relativeX < canvas.width) {
-        paddleX = relativeX - paddleWidth/2;
-    }
-}
-
-// function pressMoveHandler(e) {
-//     var relativeX = e.clientX - canvas.offsetLeft;
-//     if(relativeX > 0 && relativeX < canvas.width) {
-//         paddleX = relativeX - paddleWidth/2;
-//     }
-// }
-
 function collisionDetection() {
     for(var c=0; c<brickColumnCount; c++) {
         for(var r=0; r<brickRowCount; r++) {
@@ -211,6 +171,49 @@ function collisionDetection() {
     }
 }
 
+// detect button press
+// function keyDownHandler(e) {
+//     if(e.key == "Right" || e.key == "ArrowRight") {
+//         rightPressed = true;
+//     }
+//     else if(e.key == "Left" || e.key == "ArrowLeft") {
+//         leftPressed = true;
+//     }
+// }
+
+// function keyUpHandler(e) {
+//     if(e.key == "Right" || e.key == "ArrowRight") {
+//         rightPressed = false;
+//     }
+//     else if(e.key == "Left" || e.key == "ArrowLeft") {
+//         leftPressed = false;
+//     }
+// }
+
+// function mouseMoveHandler(e) {
+//     var relativeX = e.clientX - canvas.offsetLeft;
+//     if(relativeX > 0 && relativeX < canvas.width) {
+//         paddleX = relativeX - paddleWidth/2;
+//     }
+// }
+
+
+// TOUCH
+function touchHandler(e) {
+    if(e.touches) {
+        var relativeX = e.touches[0].pageX - canvas.offsetLeft - playerWidth / 2;
+        output.innerHTML = "Touch:  <br />"+ " x: " + playerX;
+        e.preventDefault();
+    }
+}
+
+// function pressMoveHandler(e) {
+//     var relativeX = e.clientX - canvas.offsetLeft;
+//     if(relativeX > 0 && relativeX < canvas.width) {
+//         paddleX = relativeX - paddleWidth/2;
+//     }
+// }
+
 function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
@@ -233,7 +236,8 @@ function drawTime() {
 // document.addEventListener("keydown", keyDownHandler, false);
 // document.addEventListener("keyup", keyUpHandler, false);
 // document.addEventListener("mousemove", mouseMoveHandler, false);
-document.addEventListener("touchmove", touchMoveHandler, false);
+document.addEventListener("touhstart", touchHandler, false);
+document.addEventListener("touchmove", touchHandler, false);
 
 draw();
 // setInterval(draw, 10);
