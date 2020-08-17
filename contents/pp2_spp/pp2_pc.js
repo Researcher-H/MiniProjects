@@ -131,12 +131,12 @@ function draw() {
         }
     }
 
-    if(rightPressed && paddleX < canvas.width-paddleWidth) {
-        paddleX += 7;
-    }
-    else if(leftPressed && paddleX > 0) {
-        paddleX -= 7;
-    }
+    // if(rightPressed && paddleX < canvas.width-paddleWidth) {
+    //     paddleX += 7;
+    // }
+    // else if(leftPressed && paddleX > 0) {
+    //     paddleX -= 7;
+    // }
 
     x += dx;
     y += dy;
@@ -201,7 +201,10 @@ function collisionDetection() {
 // TOUCH
 function touchHandler(e) {
     if(e.touches) {
-        var relativeX = e.touches[0].pageX - canvas.offsetLeft - paddleWidth / 2;
+        var relativeX = e.touches[0].pageX - canvas.offsetLeft;
+        if(relativeX > 0 && relativeX < canvas.width) {
+            paddleX = relativeX - paddleWidth/2;
+        }
         output.innerHTML = "Touch:  <br />"+ " x: " + relativeX;
         e.preventDefault();
     }
